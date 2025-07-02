@@ -16,10 +16,10 @@ app.post('/login',(req,res)=>{
         res.status(200).json({message:'login successsfully'});
 
     }
-    else{
-        res.status(401).json({message:'invalid password / credential'});
+    else{        res.status(401).json({message:'invalid password / credential'});
     }
 });
+
 
 app.listen(PORT,()=>
 {

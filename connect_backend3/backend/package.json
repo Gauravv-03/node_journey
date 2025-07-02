@@ -1,0 +1,19 @@
+{
+  "name": "connect_backend",
+  "version": "1.0.0",
+  "description": "connect frontend with backend",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "hey",
+    "hey"
+  ],
+  "author": "gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
